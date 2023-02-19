@@ -1,0 +1,25 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "Bookstore Application",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maestrovibes/first-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maestrovibes/first-app/issues"
+  },
+  "homepage": "https://github.com/maestrovibes/first-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  }
+}
