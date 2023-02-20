@@ -5,7 +5,8 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
     username: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     password: {
         type: String,
@@ -27,4 +28,4 @@ const userSchema = new Schema({
 })
 
 //export schema to mongoDB
-export default mongoose.model("user", userSchema);
+export default mongoose.model("User", userSchema);
